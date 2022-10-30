@@ -50,6 +50,15 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 
 ### Task 1
 
+A convolutional neural network architecture called the U-Net is made for quick and accurate image segmentation. It is still one of the most widely used end-to-end designs in the semantic segmentation field since it has excelled in a number of tasks.
+
+The network can be divided into two sections: the decoder path and the encoder path (backbone). The encoder uses a conventional stack of convolutional and max pooling layers to collect features in the images at various scales. The encoder uses two convolutional layers (k=3, s=1) repeatedly, each one being followed by a non-linearity layer and a max-pooling layer (k=2, s=2). To ensure that the network can successfully learn the complex structures, the number of feature mappings is doubled for each convolution block and its corresponding max pooling operation. For the proposed U-Net, we used 5 encoder layers and 5 decoder layers.
+
+The decoder path employs transposed convolutions and is a symmetric expanding counterpart. This particular sort of convolutional layer performs the opposite of (down)pooling layers like the max pool and uses an up-sampling technique with trainable parameters. Each convolution block is followed by an up-convolutional layer, just like the encoder. Every block reduces the amount of feature maps by half. The feature maps of the relevant encoder block are appended to the output after each up-convolutional layer since it is challenging for the network to recreate a segmentation mask from a short feature map. In this case, the up sampling was done using the trilinear mode, and the down sampling was done using a sequential model with a max-pooling layer.
+
+The output ends up going through a second convolution layer (k=1, s=1), with the number of feature mappings equal to the number of defined labels. 
+
+
 #### Training Graphs 
 
 
