@@ -65,7 +65,7 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 Unet Prediction
 
 Following are the results as per Dice coefficient, Jaccard coefficient and BCE-Dice Loss(Binary Cross Entropy + Dice Coefficient Loss).
-![python](readme_images/score_arjun_1.jpeg)
+![python](readme_images/score_arjun_1.png)
 ![python](readme_images/result.gif)
 
 
