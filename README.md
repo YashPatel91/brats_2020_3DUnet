@@ -60,7 +60,7 @@ The output ends up going through a second convolution layer (k=1, s=1), with the
 
 
 #### Training Graphs 
-
+![python](readme_images/training.PNG)
 
 #### 3DUNet Architecture 
 ![python](readme_images/unet_1.jpeg)
