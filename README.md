@@ -61,6 +61,18 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 
 ### Task 2
 
+In order to estimate a patient's overall survival, we intend to extract imaging/radiomic features from the brain tumour segmentation labels, combine them with the MRI data, and use machine learning algorithms to analyse the features.
+
+Loading the dataset: We first create a list of the data with not null values of age and survival days, which can be utilized for the dataset's training and testing, and we put their individual addresses on a dataframe that the dataloader can access later to start the model training process.
+
+Autoencoder model: An autoencoder is an unsupervised learning method for neural networks that trains the network to ignore signal "noise" as it discovers efficient data representations (encoding). The dataset will be encoded and decoded using an autoencoder model with the help of three convolutional layer layers and max - pooling. The encoder's outcome and the exact opposite of the decoder.
+
+Training Parameter: We used Nvidia A100 40GB GPU for model training.
+The learning rate for model training is set to 5e-4 and MSELoss criterion is used. We set the batch size to 3 and trained the model for 10 epochs.
+
+Then, utilizing central tendencies like mean and standard deviation, we extracted additional latent features from the dataset like skew, kurtosis, and its variations like intense skew and non-intensive skew. Additionally, we normalized the features. With the creation of this new additional dataframe with latent features for each of the four modalities, a csv file is stored for future usage. After testing with various encoders, we settled on an encoder that has three convolutional layers, followed by three max - pooling layers. After training the dataset, we obtained a validation loss of 0.003 on average.
+
+
 ![python](readme_images/autoencoder.jpeg)
 
 ## Comparisions/Results
