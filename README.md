@@ -58,6 +58,12 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 
 ### Task 2
 
+Unet Prediction
+![python](readme_images/result.gif)
+
+AutoEncoder Prediction
+![python](readme_images/AE_result.gif)
+
 ## Comparisions/Results
 
 
