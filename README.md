@@ -22,7 +22,12 @@ Install the libraries as follows
 pip install requirements.txt
 ```
 **nibabel**
-An ever-expanding range of neuroimaging file formats are supported by NiBabel. Every file format has unique characteristics that must be taken into consideration if you want to get the most out of it. In order to achieve this, NiBabel provides high-level, format-independent access to neuroimages as well as an API with varying levels of format-specific access to all information that is accessible in a given file format. 
+
+an ever-expanding range of neuroimaging file formats are supported by NiBabel. Every file format has unique characteristics that must be taken into consideration if you want to get the most out of it. In order to achieve this, NiBabel provides high-level, format-independent access to neuroimages as well as an API with varying levels of format-specific access to all information that is accessible in a given file format. 
+
+**nilearn**
+
+Analyses of brain volumes are now accessible and flexible thanks to Nilearn. It offers tools for machine learning and statistics, as well as helpful documentation. It utilises the scikit-learn Python toolbox for multivariate statistics and enables general linear model (GLM) based analysis with applications including predictive modelling, classification, decoding, or connection analysis.
 
 ### Dataset:Google Drive Loading
 
