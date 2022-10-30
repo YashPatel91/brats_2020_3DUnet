@@ -65,7 +65,11 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 Unet Prediction
 ![python](readme_images/result.gif)
 
+
 AutoEncoder Prediction
+
+We have experimented with ElasticNet, SVR (Suppor Vector Regression), Random Forest Regression, and Gradient Boost. We found the Random Forest Regressor to be the best model for predicting survival rate after experimenting with various parameters and models. In order to calculate the patients' survival rate, we employed mean absolute percentage error (MAPE). The fact that there wasn't enough data provided for task 2 to be performed resulted in a lower overall MAPE of 0.311.
+
 ![python](readme_images/AE_result.gif)
 
 ## Acknowledgements
