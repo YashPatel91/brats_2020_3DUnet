@@ -21,7 +21,8 @@ Install the libraries as follows
 ```bash
 pip install requirements.txt
 ```
-We have used # nibabel
+**nibabel**
+An ever-expanding range of neuroimaging file formats are supported by NiBabel. Every file format has unique characteristics that must be taken into consideration if you want to get the most out of it. In order to achieve this, NiBabel provides high-level, format-independent access to neuroimages as well as an API with varying levels of format-specific access to all information that is accessible in a given file format. 
 
 ### Dataset:Google Drive Loading
 
