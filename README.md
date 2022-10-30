@@ -65,7 +65,7 @@ Feel free to contact me in case code has bugs. In fact I will very much apprecia
 Connect: Yash Atul Patel ![twitter](https://img.shields.io/twitter/follow/yashpatel?style=social)![social](https://img.shields.io/github/followers/YashPatel91?style=social) 
 Contact: yash9132@gmail.com 
 
-Connect: KrushangBhavsar ![social]([https://img.shields.io/github/followers/YashPatel91?style=social](https://img.shields.io/github/followers/KrushangBhavsar?style=social)) 
+Connect: KrushangBhavsar ![social](https://img.shields.io/github/followers/KrushangBhavsar?style=social) 
 Contact: krushangbhavsar@gmail.com
 
 
