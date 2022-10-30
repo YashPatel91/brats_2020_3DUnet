@@ -53,30 +53,14 @@ class GlobalConfig:
 
 ## Comparisions/Results
 
-As it stands now, [Model-1](#Model-1-Transfer-learning-Inception-V3) has accuracy of around 82% accuracy over the test data set while the custom [Model-2](#Model-2-Custom-CNN-model_1) has accuracy of around 70% at the end of its run. [Model-3](#Model-3-Custom-CNN-model_2) is highly process expensive, a single epoch has processing time of around 150 minutes. [Model-3](#Model-3-Custom-CNN-model_2) has achived accuracy over 85% over 7 epochs.
-
-Computationally [Model-1](#Model-1-Transfer-learning-Inception-V3) has the highest efficiency for the identification to processing time ratio while [Model-3](#Model-3-Custom-CNN-model_2) has the highest accuracy but at the cost very processing needs.
-
-
-## Road-map
-
-Currently the classification is done with straigh forward approach of extracting features and comparing them with the trained weights. Here images are directly used by the model to predict their class without any other form of manipulation of the data before and after the model. So I propose use of object identifier like Yolo or denseNet to first identify a mushroom from the picture and make a bounding box around it. After this, the image in the bounding box will be used to train or predict in the model. This approach I belive would be better suited for the needs of this project
-
-Additionally this classification is done considering only 4 mushrooms as its dataset. Out of these 2 are edible and 2 are poisonous to have uniform data. Currently these mushrooms constitute major part of all mushrooms used worldwide. I think model can be further improved with the help wider range of dataset. This will allow greater distinction between poisonous and edible mushrooms.
-
 ## Acknowledgements
-I would like to express my gratitude to Lakehead University for providing me with an opportunity to do this research. I would also like to express my thanks to Dr. Trevor Tomesh for guiding me through my journy of writing this research paper and help me get better understanding of github and its uses.
+We would like to express our gratitude to Dr. S. Mohammed to help us in our research and providing us valuable pointers for out project. We would also like to express our thanks to Peralman School of medicine, University of Pennysylvania for providing providing us the data needed for this project. Lastly we would also like express our gratitude to Lakehead University for facilliating this project as our final year project.
 
 ## License
-This is open source project. Though it would be nice to give me message if find this project useful for your needs.
+This is open source project. Though it would be nice to give us message if find this project useful for your needs.
 
 ## Support
 Feel free to contact me in case code has bugs. In fact I will very much appreciate for finding the faults in the code. Feel free to reach out to me. Though emails are the fastest ones I reply.
-
-
-
-## Project-Status
-Project is still under development but on hold for indefinate amount. Would be great if anyone wants to collaborate for this. Just drop a message
 
 Connect: Yash Atul Patel ![twitter](https://img.shields.io/twitter/follow/yashpatel?style=social)![social](https://img.shields.io/github/followers/YashPatel91?style=social) 
 
