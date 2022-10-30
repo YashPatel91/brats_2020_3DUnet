@@ -58,15 +58,15 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 
 ### Task 2
 
+![python](readme_images/autoencoder.jpeg)
+
+## Comparisions/Results
+
 Unet Prediction
 ![python](readme_images/result.gif)
 
 AutoEncoder Prediction
 ![python](readme_images/AE_result.gif)
-
-## Comparisions/Results
-
-
 
 ## Acknowledgements
 We would like to express our gratitude to Dr. S. Mohammed to help us in our research and providing us valuable pointers for out project. We would also like to express our thanks to Peralman School of medicine, University of Pennysylvania for providing providing us the data needed for this project. Lastly we would also like express our gratitude to Lakehead University for facilliating this project as our final year project.
