@@ -50,6 +50,9 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 
 ### Task 1
 
+#### Training Graphs 
+
+
 #### 3DUNet Architecture 
 ![python](readme_images/unet_1.jpeg)
 ![python](readme_images/unet_2.jpeg)
