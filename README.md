@@ -50,10 +50,17 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 
 ### Task 1
 
+####3DUNet Architecture
+![python](Image Results/unet_1.PNG)
+![python](Image Results/unet_2.PNG)
+![python](Image Results/unet_3.PNG)
+![python](Image Results/unet_4.PNG)
 
 ### Task 2
 
 ## Comparisions/Results
+
+
 
 ## Acknowledgements
 We would like to express our gratitude to Dr. S. Mohammed to help us in our research and providing us valuable pointers for out project. We would also like to express our thanks to Peralman School of medicine, University of Pennysylvania for providing providing us the data needed for this project. Lastly we would also like express our gratitude to Lakehead University for facilliating this project as our final year project.
