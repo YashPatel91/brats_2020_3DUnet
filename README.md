@@ -6,7 +6,7 @@ The assessment of cutting-edge techniques for the segmentation of brain tumors i
 
 1. [Installation](#Installation)
 2. [Usage_Description](#Usage-Description)
-3. [Comparision/Results](#Comparisions/Results)
+3. [Comparision/Results](#comparisionsresults)
 4. [Acknowledgements](#Acknowledgements)
 5. [Support](#Support)
 6. [License](#License)
