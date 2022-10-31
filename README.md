@@ -121,13 +121,14 @@ We have experimented with ElasticNet, SVR (Suppor Vector Regression), Random For
 ![python](readme_images/AE_result.gif)
 
 ## Acknowledgements
-We would like to express our gratitude to Dr. S. Mohammed to help us in our research and providing us valuable pointers for out project. We would also like to express our thanks to Peralman School of medicine, University of Pennysylvania for providing providing us the data needed for this project. Lastly we would also like express our gratitude to Lakehead University for facilliating this project as our final year project.
+We would like to thank Dr. S. Mohammed for his assistance throughout our project and for giving us insightful advice for our project. We also like to thank the Peralman School of Medicine at the University of Pennsylvania for giving us the information we required for this project. Lastly we would also like express our gratitude to Lakehead University for facilliating this project as our final year project.
 
 ## License
 This is open source project. Though it would be nice to give us message if find this project useful for your needs.
 
 ## Support
-Feel free to contact me in case code has bugs. In fact I will very much appreciate for finding the faults in the code. Feel free to reach out to me. Though emails are the fastest ones I reply.
+If the code has any bugs, please get in touch with me. Finding the bugs in the code is something I would really appreciate. Even so, I reply to emails the quickly.
+
 
 Connect: Yash Atul Patel ![twitter](https://img.shields.io/twitter/follow/yashpatel?style=social)![social](https://img.shields.io/github/followers/YashPatel91?style=social) 
 Contact: yash9132@gmail.com 
@@ -141,6 +142,7 @@ Contact: abhishekshah1411@gmail.com
 
 Connect: Arjunkumar Shah ![social](https://img.shields.io/github/followers/ashah25?style=social)
 Contact: ashah25@lakeheadu.ca
+
 
 Connect: Mohammed Hossein Ansari ![social](https://img.shields.io/github/followers/MhAnsari2?style=social)
 Contact: mansari2@lakeheadu.ca
