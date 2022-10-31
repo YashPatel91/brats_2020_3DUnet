@@ -64,7 +64,7 @@ class GlobalConfig:
 All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe native (T1) and post-contrast T1-weighted (T1Gd), T2-weighted (T2), and d) T2-FLAIR volumes. They were acquired using various clinical protocols and scanners from multiple (n=19) institutions, which are mentioned as data contributors. All the imaging datasets have been segmented manually, by one to four raters, following the same annotation protocol, and their annotations were approved by experienced neuro-radiologists. Annotations comprise the GD-enhancing tumor (ET — label 4), the peritumoral edema (ED — label 2), and the necrotic and non-enhancing tumor core (NCR/NET — label 1). This dataset is made up of 3D MRI brain scans from 369 individuals with gliomas, 76 of them have LGG, and the remaining patients have HGG.
 
 ### Task 1
-![python](readme_images/Task1_flow.png)
+<img src = "readme_images/Task2_flow.png" widht="100", height="100">
 Task 1 is associated with brain tumor segmentation and to perform the brain tumor segmentation here in this approach we are using 3D U-Net model.
 
 A convolutional neural network architecture called the U-Net is made for quick and accurate image segmentation. It is still one of the most widely used end-to-end designs in the semantic segmentation field since it has excelled in a number of tasks.
@@ -87,7 +87,7 @@ The output ends up going through a second convolution layer (k=1, s=1), with the
 
 ### Task 2
 ![python](readme_images/Task2_flow.png)
-<img src = "readme_images/Task2_flow.png" widht="200">
+
 In order to estimate a patient's overall survival, we intend to extract imaging/radiomic features from the brain tumour segmentation labels, combine them with the MRI data, and use machine learning algorithms to analyse the features.
 
 Loading the dataset: We first create a list of the data with not null values of age and survival days, which can be utilized for the dataset's training and testing, and we put their individual addresses on a dataframe that the dataloader can access later to start the model training process.
