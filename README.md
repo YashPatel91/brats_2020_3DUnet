@@ -6,7 +6,7 @@ The assessment of cutting-edge techniques for the segmentation of brain tumors i
 
 1. [Installation](#Installation)
 2. [Usage_Description](#Usage-Description)
-3. [Comparision/Results](Comparisions/Results)
+3. [Comparision/Results](#Comparisions/Results)
 4. [Acknowledgements](#Acknowledgements)
 5. [Support](#Support)
 6. [License](#License)
@@ -63,7 +63,7 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 
 ### Task 1
 
-![python](readme_images/Task1_flow.png)
+<img src="/readme_images/Task1_flow.png" width="50%" height="50%">
 
 Task 1 is associated with brain tumor segmentation and to perform the brain tumor segmentation here in this approach we are using 3D U-Net model.
 
@@ -77,17 +77,19 @@ The output ends up going through a second convolution layer (k=1, s=1), with the
 
 
 #### Training Graphs 
-![python](readme_images/training.PNG)
+
+<img src="/readme_images/training.PNG" width="50%" height="50%">
 
 #### 3DUNet Architecture 
-![python](readme_images/unet_1.jpeg)
-![python](readme_images/unet_2.jpeg)
-![python](readme_images/unet_3.jpeg)
-![python](readme_images/unet_4.jpeg)
+
+<img src="/readme_images/unet_1.jpeg" width="50%" height="50%">
+<img src="/readme_images/unet_2.jpeg" width="50%" height="50%">
+<img src="/readme_images/unet_3.jpeg" width="50%" height="50%">
+<img src="/readme_images/unet_4.jpeg" width="50%" height="50%">
 
 ### Task 2
 
-![python](readme_images/Task2_flow.png)
+<img src="/readme_images/Task2_flow.png" width="50%" height="50%">
 
 In order to estimate a patient's overall survival, we intend to extract imaging/radiomic features from the brain tumour segmentation labels, combine them with the MRI data, and use machine learning algorithms to analyse the features.
 
@@ -101,7 +103,7 @@ The learning rate for model training is set to 5e-4 and MSELoss criterion is use
 Then, utilizing central tendencies like mean and standard deviation, we extracted additional latent features from the dataset like skew, kurtosis, and its variations like intense skew and non-intensive skew. Additionally, we normalized the features. With the creation of this new additional dataframe with latent features for each of the four modalities, a csv file is stored for future usage. After testing with various encoders, we settled on an encoder that has three convolutional layers, followed by three max - pooling layers. After training the dataset, we obtained a validation loss of 0.003 on average.
 
 
-![python](readme_images/autoencoder.jpeg)
+<img src="/readme_images/autoencoder.jpeg" width="50%" height="50%">
 
 ## Comparisions/Results
 
