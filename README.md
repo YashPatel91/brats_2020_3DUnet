@@ -86,7 +86,7 @@ The output ends up going through a second convolution layer (k=1, s=1), with the
 ![python](readme_images/unet_4.jpeg)
 
 ### Task 2
-
+![python](readme_images/Task2_flow.png)
 In order to estimate a patient's overall survival, we intend to extract imaging/radiomic features from the brain tumour segmentation labels, combine them with the MRI data, and use machine learning algorithms to analyse the features.
 
 Loading the dataset: We first create a list of the data with not null values of age and survival days, which can be utilized for the dataset's training and testing, and we put their individual addresses on a dataframe that the dataloader can access later to start the model training process.
