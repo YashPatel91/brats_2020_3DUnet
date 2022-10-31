@@ -116,7 +116,7 @@ Following are the results as per Dice coefficient, Jaccard coefficient and BCE-D
 
 **AutoEncoder Prediction**
 
-We have experimented with ElasticNet, SVR (Suppor Vector Regression), Random Forest Regression, and Gradient Boost. We found the Random Forest Regressor to be the best model for predicting survival rate after experimenting with various parameters and models. In order to calculate the patients' survival rate, we employed mean absolute percentage error (MAPE). The fact that there wasn't enough data provided for task 2 to be performed resulted in a lower overall MAPE of 0.311.
+We have experimented different model such as ElasticNet, SVR (Suppor Vector Regression), Random Forest Regression,Gradient Boost, SGD Regression and we found the Random Forest Regressor to be the best model for predicting survival rate. In order to calculate the patients' survival rate, we employed mean absolute percentage error (MAPE). The fact that there wasn't enough data provided for task 2 to be performed resulted in a lower overall MAPE of 0.311.
 
 ![python](readme_images/AE_result.gif)
 
@@ -124,7 +124,7 @@ We have experimented with ElasticNet, SVR (Suppor Vector Regression), Random For
 We would like to thank Dr. S. Mohammed for his assistance throughout our project and for giving us insightful advice for our project. We also like to thank the Peralman School of Medicine at the University of Pennsylvania for giving us the information we required for this project. Lastly we would also like express our gratitude to Lakehead University for facilliating this project as our final year project.
 
 ## License
-This is open source project. Though it would be nice to give us message if find this project useful for your needs.
+This project is open source. However, if you find this project valuable for your purposes, please let us know.
 
 ## Support
 If the code has any bugs, please get in touch with me. Finding the bugs in the code is something I would really appreciate. Even so, I reply to emails the quickly.
