@@ -133,3 +133,9 @@ Contact: krushangbhavsar@gmail.com
 
 Connect: Abhishek Shah ![social](https://img.shields.io/github/followers/shah1411?style=social) 
 Contact: abhishekshah1411@gmail.com
+
+Connect: Arjunkumar Shah ![social](https://img.shields.io/github/followers/ashah25?style=social)
+Contact: ashah25@lakeheadu.ca
+
+Connect: Mohammed Hossein Ansari ![social](https://img.shields.io/github/followers/MhAnsari2?style=social)
+Contact: mansari2@lakeheadu.ca
