@@ -65,6 +65,8 @@ All BraTS multimodal scans are available as NIfTI files (.nii.gz) and describe n
 
 <img src="/readme_images/Task1_flow.png" width="50%" height="50%">
 
+**To run Task 1, Please use Task1_Brain_Tumor_Segmentation.ipynb file with appropriate dependencies.**
+
 Task 1 is associated with brain tumor segmentation and to perform the brain tumor segmentation here in this approach we are using 3D U-Net model.
 
 A convolutional neural network architecture called the U-Net is made for quick and accurate image segmentation. It is still one of the most widely used end-to-end designs in the semantic segmentation field since it has excelled in a number of tasks.
@@ -90,6 +92,8 @@ The output ends up going through a second convolution layer (k=1, s=1), with the
 ### Task 2
 
 <img src="/readme_images/Task2_flow.png" width="50%" height="50%">
+
+**To run Task 2, Please use Task2_Survival_Prediction.ipynb file with appropriate dependencies.**
 
 In order to estimate a patient's overall survival, we intend to extract imaging/radiomic features from the brain tumour segmentation labels, combine them with the MRI data, and use machine learning algorithms to analyse the features.
 
@@ -119,6 +123,10 @@ Following are the results as per Dice coefficient, Jaccard coefficient and BCE-D
 We have experimented different model such as ElasticNet, SVR (Suppor Vector Regression), Random Forest Regression,Gradient Boost, SGD Regression and we found the Random Forest Regressor to be the best model for predicting survival rate. In order to calculate the patients' survival rate, we employed mean absolute percentage error (MAPE). The fact that there wasn't enough data provided for task 2 to be performed resulted in a lower overall MAPE of 0.311.
 
 ![python](readme_images/AE_result.gif)
+
+
+
+**Note: The folder Other Test runs contains our experimental files and readme Images contains images which we used in our ReadME.md file.**
 
 ## Acknowledgements
 We would like to thank Dr. S. Mohammed for his assistance throughout our project and for giving us insightful advice for our project. We also like to thank the Peralman School of Medicine at the University of Pennsylvania for giving us the information we required for this project. Lastly we would also like express our gratitude to Lakehead University for facilliating this project as our final year project.
